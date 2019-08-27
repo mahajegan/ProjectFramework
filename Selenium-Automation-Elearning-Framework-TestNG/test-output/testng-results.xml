@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47209" started-at="2019-08-27T05:37:49Z" finished-at="2019-08-27T05:38:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47209" started-at="2019-08-27T05:37:49Z" finished-at="2019-08-27T05:38:37Z">
+      <class name="com.training.sanity.tests.EditProfileTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="setUpBeforeClass" is-config="true" duration-ms="19321" started-at="2019-08-27T11:07:49Z" finished-at="2019-08-27T11:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="AdminLogin()[pri:1, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="AdminLogin" duration-ms="7584" started-at="2019-08-27T11:08:09Z" finished-at="2019-08-27T11:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-08-27T11:08:16Z" finished-at="2019-08-27T11:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="EditProfile()[pri:2, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="EditProfile" duration-ms="18263" started-at="2019-08-27T11:08:17Z" finished-at="2019-08-27T11:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-08-27T11:08:36Z" finished-at="2019-08-27T11:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.EditProfileTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
