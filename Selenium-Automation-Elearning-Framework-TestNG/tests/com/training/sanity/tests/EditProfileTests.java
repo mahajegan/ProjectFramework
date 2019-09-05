@@ -6,7 +6,9 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.training.generics.*;
@@ -15,7 +17,7 @@ import com.training.sanity.tests.AdminLoginTest;
 import com.training.pom.EditProfilePOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
-import com.training.report.ExtentReport;
+
 
 
 public class EditProfileTests extends AdminLoginTest {
@@ -26,9 +28,9 @@ public class EditProfileTests extends AdminLoginTest {
 	private static Properties properties;
 	private ScreenShot screenShot;
 	private EditProfilePOM EditProfilePOM;
-	public ExtentReport ExtentReport;
 	public AdminLoginPOM AdminLoginPOM;
 	
+
 	@Test(priority=2)
 	public void EditProfile() throws Exception  {
 		
@@ -82,7 +84,4 @@ public class EditProfileTests extends AdminLoginTest {
 	  AdminLoginPOM.clicklogout(); 
 	
   }
-	
-	
-	
 }

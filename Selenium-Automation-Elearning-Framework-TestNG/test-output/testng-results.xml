@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47209" started-at="2019-08-27T05:37:49Z" finished-at="2019-08-27T05:38:37Z">
+  <suite name="Default suite" duration-ms="81689" started-at="2019-09-05T08:54:01Z" finished-at="2019-09-05T08:55:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47209" started-at="2019-08-27T05:37:49Z" finished-at="2019-08-27T05:38:37Z">
-      <class name="com.training.sanity.tests.EditProfileTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="setUpBeforeClass" is-config="true" duration-ms="19321" started-at="2019-08-27T11:07:49Z" finished-at="2019-08-27T11:08:09Z">
+    <test name="Default test" duration-ms="81689" started-at="2019-09-05T08:54:01Z" finished-at="2019-09-05T08:55:23Z">
+      <class name="com.training.sanity.tests.AdminLoginTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="setUpBeforeClass" is-config="true" duration-ms="12873" started-at="2019-09-05T14:24:01Z" finished-at="2019-09-05T14:24:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="AdminLogin()[pri:1, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="AdminLogin" duration-ms="7584" started-at="2019-08-27T11:08:09Z" finished-at="2019-08-27T11:08:16Z">
+        <test-method status="PASS" signature="AdminLogin()[pri:1, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="AdminLogin" duration-ms="6157" started-at="2019-09-05T14:24:14Z" finished-at="2019-09-05T14:24:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-08-27T11:08:16Z" finished-at="2019-08-27T11:08:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-05T14:24:20Z" finished-at="2019-09-05T14:24:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="EditProfile()[pri:2, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="EditProfile" duration-ms="18263" started-at="2019-08-27T11:08:17Z" finished-at="2019-08-27T11:08:36Z">
+        <test-method status="PASS" signature="PropertiesTest()[pri:2, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="PropertiesTest" duration-ms="21893" started-at="2019-09-05T14:24:21Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:24:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditProfile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests@29ee9faa]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-08-27T11:08:36Z" finished-at="2019-08-27T11:08:37Z">
+        </test-method> <!-- PropertiesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1002" started-at="2019-09-05T14:24:43Z" finished-at="2019-09-05T14:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.EditProfileTests -->
+        <test-method status="PASS" signature="FeaturesTest()[pri:3, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="FeaturesTest" duration-ms="17740" started-at="2019-09-05T14:24:44Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeaturesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-05T14:25:02Z" finished-at="2019-09-05T14:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="RegionsTest()[pri:4, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="RegionsTest" duration-ms="18984" started-at="2019-09-05T14:25:03Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegionsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-09-05T14:25:22Z" finished-at="2019-09-05T14:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.AdminLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

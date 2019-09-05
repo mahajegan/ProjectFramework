@@ -1,5 +1,7 @@
 package com.trianing.waits;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -92,6 +94,10 @@ public class WaitTypes {
 			System.out.println("Element Not Located " + e);
 		}
 		return null;
+	}
+	
+	public void WebDriverWait(int timeout){
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
 }
 

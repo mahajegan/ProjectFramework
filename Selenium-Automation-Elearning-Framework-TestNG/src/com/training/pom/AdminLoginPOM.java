@@ -5,18 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
 import com.training.*;
-import com.training.report.ExtentReport;
 
 public class AdminLoginPOM {
 	private WebDriver driver; 
-	private ExtentReport ExtentReport;
 	
 	public AdminLoginPOM(WebDriver driver) {
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
-		ExtentReport = new ExtentReport();	
+
 	}
 	
 	//username locator
@@ -56,4 +53,6 @@ public class AdminLoginPOM {
 	public void clicklogout(){
 		this.logout.click();
 	}
+	
+	
 }

@@ -48,6 +48,8 @@ public class LoginExcelTest {
 		driver.quit();
 	}
 
+	//dataprovide name and the class name
+	//pass the column headers that we want to send to use
 	@Test(dataProvider = "excel-inputs", dataProviderClass = LoginDataProviders.class)
 	public void loginDBTest(String userName, String password) {
 		loginPOM.sendUserName(userName);
