@@ -1,49 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81689" started-at="2019-09-05T08:54:01Z" finished-at="2019-09-05T08:55:23Z">
+  <suite name="Default suite" duration-ms="88570" started-at="2019-09-17T18:17:48Z" finished-at="2019-09-17T18:19:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81689" started-at="2019-09-05T08:54:01Z" finished-at="2019-09-05T08:55:23Z">
-      <class name="com.training.sanity.tests.AdminLoginTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="setUpBeforeClass" is-config="true" duration-ms="12873" started-at="2019-09-05T14:24:01Z" finished-at="2019-09-05T14:24:14Z">
+    <test name="Default test" duration-ms="88570" started-at="2019-09-17T18:17:48Z" finished-at="2019-09-17T18:19:16Z">
+      <class name="com.training.sanity.tests.UsersTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UsersTest@c038203]" name="setUpBeforeClass" is-config="true" duration-ms="16150" started-at="2019-09-17T23:47:48Z" finished-at="2019-09-17T23:48:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="AdminLogin()[pri:1, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="AdminLogin" duration-ms="6157" started-at="2019-09-05T14:24:14Z" finished-at="2019-09-05T14:24:20Z">
+        <test-method status="PASS" signature="AdminLogin()[pri:1, instance:com.training.sanity.tests.UsersTest@c038203]" name="AdminLogin" duration-ms="8744" started-at="2019-09-17T23:48:04Z" finished-at="2019-09-17T23:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-05T14:24:20Z" finished-at="2019-09-05T14:24:21Z">
+        <test-method status="PASS" signature="RETC_074()[pri:1, instance:com.training.sanity.tests.UsersTest@c038203]" name="RETC_074" duration-ms="5329" started-at="2019-09-17T23:48:12Z" finished-at="2019-09-17T23:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_074 -->
+        <test-method status="PASS" signature="RETC_074_Excel(java.lang.String, java.lang.String)[pri:2, instance:com.training.sanity.tests.UsersTest@c038203]" name="RETC_074_Excel" duration-ms="4990" started-at="2019-09-17T23:48:19Z" data-provider="excel-inputs" finished-at="2019-09-17T23:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mathan Raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[administrator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_074_Excel -->
+        <test-method status="PASS" signature="RETC_074_Excel(java.lang.String, java.lang.String)[pri:2, instance:com.training.sanity.tests.UsersTest@c038203]" name="RETC_074_Excel" duration-ms="5199" started-at="2019-09-17T23:48:24Z" data-provider="excel-inputs" finished-at="2019-09-17T23:48:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahalakshmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[agent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_074_Excel -->
+        <test-method status="PASS" signature="RETC_074_Excel(java.lang.String, java.lang.String)[pri:2, instance:com.training.sanity.tests.UsersTest@c038203]" name="RETC_074_Excel" duration-ms="4869" started-at="2019-09-17T23:48:29Z" data-provider="excel-inputs" finished-at="2019-09-17T23:48:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishnapriya S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[editor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_074_Excel -->
+        <test-method status="PASS" signature="PostsTest()[pri:7, instance:com.training.sanity.tests.UsersTest@c038203]" name="PostsTest" duration-ms="41353" started-at="2019-09-17T23:48:34Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-17T23:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UsersTest@c038203]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-17T23:49:15Z" finished-at="2019-09-17T23:49:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="PropertiesTest()[pri:2, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="PropertiesTest" duration-ms="21893" started-at="2019-09-05T14:24:21Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:24:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PropertiesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1002" started-at="2019-09-05T14:24:43Z" finished-at="2019-09-05T14:24:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="FeaturesTest()[pri:3, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="FeaturesTest" duration-ms="17740" started-at="2019-09-05T14:24:44Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:25:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FeaturesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-05T14:25:02Z" finished-at="2019-09-05T14:25:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="RegionsTest()[pri:4, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="RegionsTest" duration-ms="18984" started-at="2019-09-05T14:25:03Z" depends-on-methods="com.training.sanity.tests.AdminLoginTest.AdminLogin" finished-at="2019-09-05T14:25:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegionsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-09-05T14:25:22Z" finished-at="2019-09-05T14:25:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.AdminLoginTest -->
+      </class> <!-- com.training.sanity.tests.UsersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

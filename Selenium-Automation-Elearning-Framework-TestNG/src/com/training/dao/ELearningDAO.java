@@ -27,8 +27,8 @@ public class ELearningDAO {
 		}
 	}
 	
-	public List<LoginBean> getLogins(){
-		String sql = properties.getProperty("get.logins"); 
+	public List<LoginBean> getLogin(){
+		String sql = properties.getProperty("getform"); 
 		
 		GetConnection gc  = new GetConnection(); 
 		List<LoginBean> list = null;
@@ -41,9 +41,14 @@ public class ELearningDAO {
 			while(gc.rs1.next()) {
 			
 				LoginBean temp = new LoginBean(); 
-				temp.setUserName(gc.rs1.getString(1));
-				temp.setPassword(gc.rs1.getString(2));
-
+				temp.setCity(gc.rs1.getString(1));
+				temp.setName(gc.rs1.getString(2));
+				temp.setEmail(gc.rs1.getString(3));
+				temp.setSubject(gc.rs1.getString(4));
+				temp.setMessage(gc.rs1.getString(5));
+				
+				
+				
 				list.add(temp); 
 				
 			}
@@ -55,7 +60,8 @@ public class ELearningDAO {
 	}
 	
 	public static void main(String[] args) {
-		new ELearningDAO().getLogins().forEach(System.out :: println);
+		new ELearningDAO().getLogin().forEach(System.out :: println);
+		
 	}
 	
 	

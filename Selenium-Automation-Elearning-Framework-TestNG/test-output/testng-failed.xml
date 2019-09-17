@@ -5,9 +5,11 @@
     <classes>
       <class name="com.training.sanity.tests.AdminLoginTest">
         <methods>
+          <include name="PostsTest"/>
           <include name="AdminLogin"/>
           <include name="tearDown"/>
-          <include name="FeaturesTest"/>
+          <include name="UsersTest"/>
+          <include name="NewLaunch"/>
           <include name="setUpBeforeClass"/>
         </methods>
       </class> <!-- com.training.sanity.tests.AdminLoginTest -->

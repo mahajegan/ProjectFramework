@@ -46,7 +46,7 @@ public class PropertiesPOM {
 	@FindBy(id="content")
 	public WebElement contenttext;
 	
-	@FindBy(xpath="//*[@class='button button-primary button-large']")
+	@FindBy(xpath="//*[@id='publish' and @class='button button-primary button-large']")
 	public WebElement publishbutton;
 	
 	@FindBy(xpath="//*[@id='message']/p")
